@@ -1,0 +1,202 @@
+body{
+  background-color: cadetblue;
+}
+.calculator{
+   height: 100px;
+    width: 900px;
+    margin-top: 200px;
+   margin-left: 450px;
+}
+.j{
+    margin: 10px;
+    font-size:23px ;
+    box-shadow: 0 0 5px 5px rgb(140, 221, 217);
+    width: 422px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(130, 219, 219);
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.j input{
+   margin-top: 2px;
+   background-color: bisque;
+   border: 0px;
+   border-radius: 4px;
+   
+}
+.c input{
+    margin-top: 2px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 4px;
+ }
+ .d input{
+    margin-top: 2px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 4px;
+ }
+ .g input{
+    margin-top: 2px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 4px;
+ }
+.c{
+    margin: 10px;
+    font-size:20px ;
+    margin: 10px;
+    font-size:23px ;
+    box-shadow: 0 0 5px 5px rgb(140, 221, 217);
+    width: 422px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(130, 219, 219);
+    border-radius: 5px;
+}
+.d{
+    margin: 10px;
+    font-size:25px ;
+    margin: 10px;
+    font-size:23px ;
+    box-shadow: 0 0 5px 5px rgb(140, 221, 217);
+    width: 422px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(130, 219, 219);
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.g{
+    margin: 10px;
+    font-size:25px ;
+    margin: 10px;
+    font-size:23px ;
+    box-shadow: 0 0 5px 5px rgb(140, 221, 217);
+    width: 422px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(130, 219, 219);
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+span{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+@media (max-width: 575px) {
+    body{
+        width: 575px;
+        
+    }
+    .calculator{
+        width: 475px;
+        margin-left: 200px;
+
+    }
+    .j{
+        width: 422px;
+    }
+    .c{
+        width: 422px;
+    }
+    .d{
+        width: 422px;
+    }
+    .g{
+        width: 422px;
+    }
+    .j input{
+        width: 220px;
+        
+    }
+    .c input{
+        width: 220px;
+    }
+    .d input{
+        width: 220px;
+    }
+    .g input{
+        width: 220px;
+    }
+}
+@media (max-width: 475px) {
+    body{
+        width: 475px;
+        
+    }
+    .calculator{
+        width: 475px;
+        margin-left: 200px;
+
+    }
+    .j{
+        width: 322px;
+    }
+    .c{
+        width: 322px;
+    }
+    .d{
+        width: 322px;
+    }
+    .g{
+        width: 322px;
+    }
+    .j input{
+        width: 220px;
+        
+    }
+    .c input{
+        width: 220px;
+    }
+    .d input{
+        width: 220px;
+    }
+    .g input{
+        width: 220px;
+    }
+}
+@media (max-width: 375px) {
+    body{
+        width: 375px;
+        
+    }
+    .calculator{
+        width: 375px;
+        margin-left: 200px;
+
+    }
+    .j{
+        width: 222px;
+    }
+    .c{
+        width: 222px;
+    }
+    .d{
+        width: 222px;
+    }
+    .g{
+        width: 222px;
+    }
+    .j input{
+        width: 120px;
+        
+    }
+    .c input{
+        width: 120px;
+    }
+    .d input{
+        width: 120px;
+    }
+    .g input{
+        width: 120px;
+    }
+}
